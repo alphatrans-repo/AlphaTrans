@@ -14,7 +14,7 @@ docker run -it alphatrans bash
 Please refer to [Reproduce AlphaTrans Results](#reproduce-alphatrans-results) for instructions on how to reproduce the results of AlphaTrans. If you are interested in translating more projects, please refer to [Translate New Java Projects](#translate-new-java-projects).
 
 ## Reproduce AlphaTrans Results
-AlphaTrans currently supports prompting OpenAI models (e.g., `gpt-4o-2024-11-20`) and open-source models (e.g., `deepseek-ai/deepseek-coder-33b-instruct`) served by [ollama](https://ollama.com/), [vLLM]() or any other engine which can provide an endpoint. We have created a [`model_configs.yaml`](/configs/model_configs.yaml) file to store necessary model information. Please paste in required model information to start experimenting with AlphaTrans.
+AlphaTrans currently supports prompting OpenAI models (e.g., `gpt-4o-2024-11-20`) and open-source models (e.g., `deepseek-ai/deepseek-coder-33b-instruct`) served by [ollama](https://github.com/ollama/ollama), [vLLM](https://github.com/vllm-project/vllm) or any other engine which can provide an endpoint. We have created a [`model_configs.yaml`](/configs/model_configs.yaml) file to store necessary model information. Please paste in required model information to start experimenting with AlphaTrans.
 
 ### RQ1: Effectiveness of AlphaTrans
 For all ten projects, we provide the project skeletons and partial translations. Please execute the following to start translating projects (e.g., `commons-fileupload` project with `gpt-4o-2024-11-20` model and with `temperature=0.0`):
